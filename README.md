@@ -14,7 +14,8 @@ If you're running Roblox On Linux (Sober):
 
 # REMOVING TELEMETRY! (Useful)
 
-``` "DFFlagDebugAnalyticsSendUserId": "False",
+```
+"DFFlagDebugAnalyticsSendUserId": "False",
 "DFFlagEnableFmodErrorsTelemetry": "False",
 "DFFlagEnableGCapsHardwareTelemetry": "False",
 "DFFlagEnableHardwareTelemetry": "False",
@@ -49,14 +50,14 @@ If you're running Roblox On Linux (Sober):
 --- Set Framerate cap ---
 
 ```
-"DFIntTaskSchedulerTargetFps": "ChangeToDesiredValue"
+"DFIntTaskSchedulerTargetFps": "ChangeToDesiredValue",
 "FFlagTaskSchedulerLimitTargetFpsTo2402": "false",
 ```
 
 --- Force OpenGL ---
 
 ```
-"use_opengl": true
+"use_opengl": true,
 ```
 
 --- Disable PostFX ---
@@ -68,5 +69,63 @@ If you're running Roblox On Linux (Sober):
 --- DISABLE LIGHTNING COMPLETELY ---
 
 ```
-"DFFlagDebugPauseVoxelizer": "True"
+"DFFlagDebugPauseVoxelizer": "True",
+```
+
+--- Gray Sky ---
+
+```
+"FFlagDebugSkyGray": "True",
+```
+
+--- Fast GPU Light Culling ---
+
+```
+"FFlagFastGPULightCulling3": "True",
+```
+
+--- Render Distance ---
+
+```
+"DFIntDebugRestrictGCDistance": "DesiredValue",
+```
+
+--- Disable HTTP Trace light ---
+
+```
+"DFLogHttpTraceLight": "0",
+```
+
+--- Override Texture Quality (0, 1, 2, 3, 4) --- 
+
+```
+"DFIntTextureQualityOverride": "DesiredValue",
+```
+
+--- FrameBuffer (0 = White screen, 1-3 = Players have laggy movement, 4+ = Smooth, 10 = Less Input Delay) ---
+
+```
+"DFIntMaxFrameBufferSize": "DesiredValue",
+```
+
+# Network Optimization
+
+--- MTU Size ---
+
+To find the best MTU Size, add 1000 to the number, then check your download speed through a network speed tester online, and add HALF of it to the 1000, e.g. 1000 + 500mbps = 1000 + 250 = 1250 MTU is your best MTU Size.
+
+```
+DFIntConnectionMTUSize": "DesiredValue",
+```
+
+--- Optimize Network ---
+
+```
+"FFlagOptimizeNetwork": "True",
+```
+
+--- Optimize FLogNetwork ---
+
+```
+"FLogNetwork": "7", --- usually the best value, but it depends
 ```
