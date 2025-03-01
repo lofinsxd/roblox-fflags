@@ -32,3 +32,35 @@ If you're running Roblox On Linux (Sober):
 "FFlagDebugDisableTelemetryV2Counter": "True",
 "FFlagDebugDisableTelemetryV2Event": "True",
 "FFlagDebugDisableTelemetryV2Stat": "True",
+```
+# Graphics / Rendering Stuff
+--- Remove shadows ---
+
+```"FIntRenderShadowIntensity": "0",
+```
+
+--- Force MSAA (1, 2, 4, 8) ---
+
+```"FIntDebugForceMSAASamples": "DesiredValue",
+```
+
+--- Set Framerate cap ---
+
+```"DFIntTaskSchedulerTargetFps": "ChangeToDesiredValue"
+"FFlagTaskSchedulerLimitTargetFpsTo2402": "false",
+```
+
+--- Force OpenGL ---
+
+```"use_opengl": true
+```
+
+--- Disable PostFX ---
+
+```"FFlagDisablePostFx": "True",
+```
+
+--- DISABLE LIGHTNING COMPLETELY ---
+
+```"DFFlagDebugPauseVoxelizer": "True"
+```
