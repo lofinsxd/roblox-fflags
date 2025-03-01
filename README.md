@@ -50,7 +50,7 @@ If you're running Roblox On Linux (Sober):
 --- Set Framerate cap ---
 
 ```
-"DFIntTaskSchedulerTargetFps": "ChangeToDesiredValue",
+"DFIntTaskSchedulerTargetFps": "DesiredValue",
 "FFlagTaskSchedulerLimitTargetFpsTo2402": "false",
 ```
 
