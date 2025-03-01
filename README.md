@@ -129,3 +129,9 @@ DFIntConnectionMTUSize": "DesiredValue",
 ```
 "FLogNetwork": "7", --- usually the best value, but it depends
 ```
+
+--- Optimize NetworkRouting ---
+
+```
+"FFlagOptimizeNetworkRouting": "True", --- also depends
+```
