@@ -1,6 +1,6 @@
 # roblox-fflags
 
-Hey! This repository will guide you through the best fast flags for performance (The Recommended fast flags are downloadable through the config.json file)
+Hey! This repository will guide you through the best fast flags for performance (The Recommended fast flags are downloadable through the config.json file). Some FastFlags in the config file can not be on this list. ⚠️
 
 # ⚠️ THIS REPO DOES NOT PROMOTE CHEATING FFLAGS. 
 IF YOU WANT TO CHEAT IN GAME, DON'T SEARCH FOR FFLAGS AND THINK ABOUT WHAT YOU'RE DOING! Don't ruin the experience for others.
