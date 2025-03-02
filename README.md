@@ -12,6 +12,17 @@ If you're running Roblox On Linux (Sober):
 - *We run* ```xdg-open ~/.var/app/org.vinegarhq.Sober/config/sober/config.json``` *and open it through a text editor (E.g. Vim)*.
 - *Delete everything and paste in our FFlags.*
 
+If you're Running Roblox On Windows (Bloxstrap)
+
+- *Open Bloxstrap*
+- *Go into the "FastFlags" section*
+- *Look for the fastflag editor*
+- *Import the fastflags through .json*
+
+If you're running Roblox on Windows (Player)
+
+- *Install bloxstrap* [here](https://github.com/bloxstraplabs/bloxstrap)!
+
 # REMOVING TELEMETRY! (Useful)
 
 ```
